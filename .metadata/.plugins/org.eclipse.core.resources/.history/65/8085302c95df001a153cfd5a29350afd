@@ -1,0 +1,9 @@
+package com.cts.productCatalog.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.cts.productCatalog.entity.Review;
+
+public interface ReviewDao extends JpaRepository<Review, Long>{
+
+}

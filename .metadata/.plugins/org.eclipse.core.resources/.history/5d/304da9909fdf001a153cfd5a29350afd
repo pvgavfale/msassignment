@@ -1,0 +1,15 @@
+package com.cts.productCatalog;
+
+import java.util.List;
+
+import com.cts.productCatalog.entity.Product;
+
+public interface ProductService {
+	
+	public List<Product> getAllProducts();
+	
+	public List<Product> getProductsByName;
+	
+	
+
+}

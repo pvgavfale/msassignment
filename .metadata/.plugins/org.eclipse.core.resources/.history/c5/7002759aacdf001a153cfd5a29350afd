@@ -1,0 +1,48 @@
+package com.cts.productCatalog.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cts.productCatalog.dao.ProductDao;
+import com.cts.productCatalog.entity.Product;
+
+@Service
+public class ProductServiceImpl  implements ProductService{
+	
+	@Autowired
+	private ProductDao productDao;
+
+	@Override
+	public List<Product> getAllProducts() {
+		// TODO Auto-generated method stub
+		return productDao.findAll();
+	}
+
+	@Override
+	public List<Product> getProductsByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<Product> getProductById(Integer id) {
+		// TODO Auto-generated method stub
+		return productDao.findById(id);
+	}
+
+	@Override
+	public List<Product> saveProducts(List<Product> products) {
+		return productDao.saveAll(products);
+
+	}
+
+	@Override
+	public Product saveProduct(Product products) {
+		return productDao.save(products);
+		
+	}
+
+}

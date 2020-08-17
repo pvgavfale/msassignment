@@ -1,0 +1,5 @@
+package com.cts.productCatalog.entity;
+
+public class Product {
+
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=Product-Catalog-Service/\/Users\/pradyumna\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.3.2.RELEASE\/spring-data-jpa-2.3.2.RELEASE.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.3.2.RELEASE=/=/maven.scope=/compile=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1595854258000"/>
+<typeInfo handle="=Product-Catalog-Service/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cts.productCatalog.dao{ProductDao.java[ProductDao" modifiers="513" timestamp="1597574270000"/>
+<typeInfo handle="=Product-Catalog-Service/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.cts.productCatalog.service{ReviewService.java[ReviewService" modifiers="513" timestamp="1597575992000"/>
+</typeInfoHistroy>

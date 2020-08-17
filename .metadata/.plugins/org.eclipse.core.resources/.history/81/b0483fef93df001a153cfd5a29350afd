@@ -1,0 +1,17 @@
+package com.cts.productCatalog.entity;
+
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+public class Review {
+	
+	private int reviewId; 
+	private int stars;
+	private String author; 
+	private String body; 
+	
+	@ManyToOne @JoinColumn(name = "id") 
+	private Product product;
+	
+
+}

@@ -1,0 +1,12 @@
+package com.cts.productCatalog.service;
+
+import java.util.Optional;
+
+import com.cts.productCatalog.entity.Review;
+
+public interface ReviewService {
+
+	public Optional<Review> getReviewById(Integer id);
+	
+	public Review saveReviewById(Review review);
+}

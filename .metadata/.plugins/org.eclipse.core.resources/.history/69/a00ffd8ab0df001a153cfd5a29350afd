@@ -1,0 +1,5 @@
+package com.cts.productCatalog.service;
+
+public interface ReviewService {
+
+}
